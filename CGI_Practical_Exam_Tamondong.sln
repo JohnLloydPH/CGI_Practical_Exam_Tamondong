@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGI_Practical_Exam_Tamondong", "CGI_Practical_Exam_Tamondong\CGI_Practical_Exam_Tamondong.csproj", "{82B21AE7-6016-49EE-B76A-3E76107877E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHelper", "DataHelper\DataHelper.csproj", "{D682CA27-8BD3-4396-A14E-26051171073C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82B21AE7-6016-49EE-B76A-3E76107877E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B21AE7-6016-49EE-B76A-3E76107877E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B21AE7-6016-49EE-B76A-3E76107877E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B21AE7-6016-49EE-B76A-3E76107877E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D682CA27-8BD3-4396-A14E-26051171073C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D682CA27-8BD3-4396-A14E-26051171073C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D682CA27-8BD3-4396-A14E-26051171073C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D682CA27-8BD3-4396-A14E-26051171073C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D1A543E-0713-4867-A4DD-D72DC28A5B8E}
+	EndGlobalSection
+EndGlobal

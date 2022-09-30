@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master_Page.master.cs" Inherits="CGI_Practical_Exam_Tamondong.Master_Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="icon" type="image/png" href="Assets\Icons\MyIcon.png">
+
+    <!--- Bootstrap CDN --->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     <style>
+        /***** Slide *****/
+        .mySlides {
+        display:none;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <!----- Header ----->
+      <header>
+        <div class="px-3 py-2 text-bg-dark">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="index.html" class="logo d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <img src="..\Assets\Icons\MyLogo.png" alt="Logo" style="width: 60px;" />
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="Home_Page.aspx" class="nav-link text-white home_active">
+                    <i class="fa-solid fa-house bi d-block mx-auto mt-2 mb-1 text-center" width="24" height="24"></i>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="Career_Page.aspx" class="nav-link text-white career_active">
+                    <i class="fa-solid fa-trophy bi d-block mx-auto mt-2 mb-1 text-center" width="24" height="24"></i>
+                    Career
+                  </a>
+                </li>
+                <li>
+                  <a href="Contact_Page.aspx" class="nav-link text-white">
+                    <i class="fa-solid fa-phone bi d-block mx-auto mt-2 mb-1 text-center" width="24" height="24"></i>
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+      </asp:ContentPlaceHolder>
+
+        <!--- Bootstrap CDN --->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    </form>
+</body>
+</html>
